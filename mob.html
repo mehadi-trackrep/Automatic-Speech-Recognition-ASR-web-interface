@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Kaarel Kaljurand">
+
+    <title>বাংল অটোম্যাটিক স্পীচ রিকগনাইজার</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+
+    <!-- <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script> -->
+
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 20px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      border-radius: 10px;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: cyan;
+      border-radius: 10px;
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b30000;
+    }
+    #heading{
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+    #servers{
+      margin-left: 150px;
+    }
+  </style>
+
+  </head>
+<body>
+
+        <div id="heading"><h4 class="text-center">Bangla <b>ASR</b> System</h4></div>
+
+      <div class="container">
+        <div class="text-center" style="margin-top: 25px;margin-bottom: -15px; color: gray;"> <p> Click on the microphone icon and begin speaking for as long as you like. </p></div>
+  		<div class="row">
+	    	<div class="col-md-9 col-offset-1">
+	    		<span id="serverStatusBar" title="Number of available workers"></span>
+
+  				<div class="buttonsContainer">
+    				<span class="buttons">
+      				<button class="btn btn-sm" id="buttonToggleListening" onclick="toggleListening();" title="Starts/stops listening for speech.">
+                  <img id="img_startListening" src="start1.svg" height="30px" width="30px">
+              </button>
+      				<button class="btn btn-sm" id="buttonCancel" disabled="disabled" onclick="cancel();" title="Cancels the speech recognition.">
+                  <img src="stop2.svg" height="30px" width="30px">
+              </button>
+      				<button class="btn btn-sm" onclick="clearTranscription();" title="Clears the transcription">
+                  <img src="clear2.svg" height="30px" width="30px">
+              </button>
+    				</span>
+  				</div>
+
+        <center><textarea class="form-control" id="trans" rows="11" style="background-color: white; margin-left: 150px;margin-top:.5em" readonly></textarea></center>
+
+				<select class="text-center" id="servers" name="servers" style="margin-top:.5em">
+				  <option value="ws://cse.sust.edu:8080/client/ws/speech|ws://cse.sust.edu:8080/client/ws/status" selected="selected">Bangla</option>
+				  <option value="ws://cse.sust.edu:8088/client/ws/speech|ws://cse.sust.edu:8088/client/ws/status">Indian_Bangla</option>
+				</select>
+				<pre id="log"></pre>
+	    	</div>
+	    	<!-- <div class="col-md-2" id="dictate" style="overflow-y:scroll; height:400px;" ></div> -->
+	    </div> <!-- row -->
+      </div>
+
+ <!-- == My JS Code == -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="other/jquery-1.10.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="../lib/dictate.js"></script>
+    <script src="../lib/recorder.js"></script>
+    <script src="mob.js"></script>
+
+  </body>
+</html>
