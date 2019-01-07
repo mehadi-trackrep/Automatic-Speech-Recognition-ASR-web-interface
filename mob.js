@@ -148,14 +148,19 @@ function __updateTranscript(text) {
 // Public methods (called from the GUI)
 function toggleListening() {
 	if (isConnected) {
-    // alert("Hello! I am an alert box!!");
-		dictate.stopListening();
-    document.getElementById("img_startListening").src == "start1.svg"
+    //alert("Hello! I am an alert box!!");
+		//dictate.stopListening();
+    document.getElementById("img_startListening").src = "start1.svg"
+    document.getElementById("title_id").innerHTML = "Click on the microphone icon and begin speaking for as long as you like.";
+    //FOR CHECKING...................
+    isConnected = false;
 	} else {
-    alert("Start! listening...");
-		dictate.startListening();
-    document.getElementById("buttonToggleListening").title = "mehadi hasan";
+    console.log("Start! listening...");
+		// dictate.startListening();
+    document.getElementById("title_id").innerHTML = "Speak now..";
     document.getElementById("img_startListening").src = "mic-animate.gif";
+    //FOR CHECKING...................
+    isConnected = true;
 	}
 }
 

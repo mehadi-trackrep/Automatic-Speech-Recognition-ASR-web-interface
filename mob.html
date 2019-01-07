@@ -55,12 +55,13 @@
         <div id="heading"><h4 class="text-center">Bangla <b>ASR</b> System</h4></div>
 
       <div class="container">
-        <div class="text-center" style="margin-top: 25px;margin-bottom: -15px; color: gray;"> <p> Click on the microphone icon and begin speaking for as long as you like. </p></div>
+        <div class="text-center" style="margin-top: 25px;margin-bottom: -15px; color: gray;"> <p id="title_id"> Click on the microphone icon and begin speaking for as long as you like. </p></div>
   		<div class="row">
-	    	<div class="col-md-9 col-offset-1">
+	    	<div class="col-md-9 col-offset-1" id="results">
 	    		<span id="serverStatusBar" title="Number of available workers"></span>
 
-  				<div class="buttonsContainer">
+          <!-- all buttons starts here -->
+  				<!-- <div class="buttonsContainer">
     				<span class="buttons">
       				<button class="btn btn-sm" id="buttonToggleListening" onclick="toggleListening();" title="Starts/stops listening for speech.">
                   <img id="img_startListening" src="start1.svg" height="30px" width="30px">
@@ -72,14 +73,22 @@
                   <img src="clear2.svg" height="30px" width="30px">
               </button>
     				</span>
-  				</div>
+  				</div> -->
 
-        <center><textarea class="form-control" id="trans" rows="11" style="background-color: white; margin-left: 150px;margin-top:.5em" readonly></textarea></center>
+          <!-- textarea for showing results -->
+          <center><textarea class="form-control" id="trans" rows="11" style="background-color: white; margin-left: 150px;margin-top:.5em" readonly></textarea></center>
 
-				<select class="text-center" id="servers" name="servers" style="margin-top:.5em">
-				  <option value="ws://cse.sust.edu:8080/client/ws/speech|ws://cse.sust.edu:8080/client/ws/status" selected="selected">Bangla</option>
-				  <option value="ws://cse.sust.edu:8088/client/ws/speech|ws://cse.sust.edu:8088/client/ws/status">Indian_Bangla</option>
-				</select>
+          <span class="buttons">
+            <button class="btn btn-sm" id="buttonToggleListening" onclick="toggleListening();" title="Starts/stops listening for speech." style="background-color: white;">
+                <img id="img_startListening" src="start1.svg" height="30px" width="30px">
+            </button>
+          </span>
+        <div class="col-sm-4">
+  				<select class="form-control text-center" id="servers" name="servers" style="margin-top:.5em">
+  				  <option value="ws://cse.sust.edu:8080/client/ws/speech|ws://cse.sust.edu:8080/client/ws/status" selected="selected">Bangla</option>
+  				  <option value="ws://cse.sust.edu:8088/client/ws/speech|ws://cse.sust.edu:8088/client/ws/status">Indian_Bangla</option>
+  				</select>
+        </div>
 				<pre id="log"></pre>
 	    	</div>
 	    	<!-- <div class="col-md-2" id="dictate" style="overflow-y:scroll; height:400px;" ></div> -->
