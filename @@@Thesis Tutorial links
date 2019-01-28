@@ -1,0 +1,248 @@
+mzi@sust.edu
+rahmanms@sust.edu          rahmanms.bd@gmail.com
+selim@sust.edu
+jahir-cse@sust.edu
+mumin-cse@sust.edu
+masum-cse@sust.edu
+frabbi-cse@sust.edu
+shajib-cse@sust.edu
+sumon-cse@sust.edu
+shoeb-cse@sust.edu
+akter-cse@sust.edu
+bikasbd@yahoo.com
+eamin-cse@sust.edu
+sabir-cse@sust.edu		 sabir.ismail01@gmail.com
+naser-cse@sust.edu abu.naser002@gmail.com
+saiful-cse@sust.edu,
+nabil-cse@sust.edu sknabil@gmail.com
+biswa-cse@sust.edu 
+mahfuz-cse@sust.edu  mahfuzsustbd@gmail.com
+sadek-cse@sust.edu 
+nahid-cse@sust.edu
+enam-cse@sust.edu
+moqsadsust@gmail.com 
+summit-cse@sust.edu summit.haque@gmail.com
+
+
+
+
+
+
+--------------------MADAM------------------
+tasnim-cse@sust.edu
+jannat-cse@sust.edu 	jannatcse@yahoo.com
+sadia-cse@sust.edu
+husne-cse@sust.edu
+deeba.bd@gmail.com
+mahruba-cse@sust.edu
+
+
+
+https://github.com/kaituoxu/Listen-Attend-Spell
+
+https://askubuntu.com/questions/1063795/installing-tensorflow-with-gpu-support-libcublas-so-9-0-missing-after-installin
+## To create lexical database:
+** https://github.com/abhishekgupta92/lexical_db_bangla
+##Data recovery:
+** https://www.youtube.com/watch?v=05838KUGnhY
+
+https://github.com/soheillll/Automatic-Speech-Recognition/blob/master/vui_notebook.ipynb
+https://github.com/SeanNaren/deepspeech.pytorch
+
+BAIDU CTC-THEANO:
+Test command: python test.py test_corpus.json  train100_corpus.json  /data/shafkat/ba-dls-deepspeech-master/model29  train100_corpus.json  /data/shafkat/ba-dls-deepspeech-mas
+Train command: python train.py train100_corpus.json validation_corpus.json /data/shafkat/ba-dls-deepspeech-master/model29
+
+
+4/2 Thesis related basics: 
+A Fully connected layer == a convolutional layer if the kernel size equal to input size.  In a convolutional layer each neuron is only connected to a few nearby (aka local) neurons in the previous layer, and the same set of weights (and local connection layout) is used for every neuron. 
+
+
+
+
+https://goo.gl/forms/VJkrUag0eIugQvfB3
+Excel sheet: 
+https://docs.google.com/forms/d/e/1FAIpQLScpiASQ2ibXaI1jxoQmse5lToPKBtwuuEZxNk5_DvDu8uFzeg/viewform
+
+
+
+Rosaland problem solution:
+https://github.com/ryanSdsu/Python-Rosalind/tree/master/Rosalind-Questions-Python
+
+
+1233 (Alif vai er pc password)
+Server pc pass: 7278
+
+ASR, HMM:
+https://www.youtube.com/watch?v=HyUtT_z-cms&list=PLzf2LOyk6iN2vN5yt60JJR9IhjOjQw6c_
+https://www.youtube.com/watch?v=mNSQ-prhgsw
+https://www.youtube.com/watch?v=kNloj1Qtf0Y
+https://kunal-dhawan.weebly.com/asr-system-in-hindi-language-from-scratch.html  (	MUST V.V.I. )
+https://github.com/topics/mfcc?o=desc&s=stars (JOSS V.V.I…...)
+
+KALDI based Github ASR repos:
+https://github.com/chenguoguo/speech-to-text-wavenet
+
+
+*** Kaldi-Help group er kicu Important(V.V.V...I.) Links:-
+https://groups.google.com/forum/#!topic/kaldi-help/f6lbbDuCH9Q
+https://groups.google.com/forum/#!searchin/kaldi-help/process$20of$20training$20RNN$20in$20kaldi|sort:date/kaldi-help/csJrMoGwEpU/oyfVeNddDQAJ
+https://groups.google.com/forum/#!searchin/kaldi-help/process$20of$20training$20RNN$20in$20kaldi|sort:date/kaldi-help/udsi_2b8YOw/u3t1j-CRBgAJ
+https://groups.google.com/forum/#!searchin/kaldi-help/lexicon$20txt|sort:date/kaldi-help/iYUAbbc73G0/HeCkjHX-AgAJ (Basic)
+
+
+
+RNN-LSTM V.V.V.I. Tutorials:
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+https://hacks.mozilla.org/2018/09/speech-recognition-deepspeech/
+
+alias python='/usr/bin/python2.7'
+
+
+Building an Acoustic model in kaldi:https://alex-sds.readthedocs.io/en/latest/_man_rst/alex.tools.kaldi.README.html
+
+http://www.voxforge.org/home/docs/faq/faq/what-is-an-acoustic-model
+
+https://www.inf.ed.ac.uk/teaching/courses/asr/2017-18/asr01-intro.pdf
+
+
+SELECT name, reg_no, batch, email,  photo FROM users
+inner join profiles on profiles.user_id=users.id
+where payable <= total_paid + total_offline_paid and (batch = 2002 or batch = 2011 or batch=2012) order by type , batch ASC;
+
+
+
+-----------------------------------------------------
+
+REUNION:
+mehadi541@gmail.com
+Pass: sustcse2018
+http://cse.sust.edu/reunion/register__
+------------------------------------------------------
+
+P2P live streaming:
+https://lisakov.com/en/blog/acestream-ubuntu-16.04/ (acestream)
+
+
+ --EX: content id for acestream =>  https://www.reddit.com/r/soccerstreams/comments/8wl6tj/1800_gmt_brazil_vs_belgium/
+
+
+Poster:
+http://cs.brown.edu/~aritz/files/Clustering%20Poster.pdf
+
+
+
+ACM Category-wise Codes (V.V.I):   
+https://github.com/Ashishgup1/Competitive-Coding/blob/master/Bridges%20in%20Graph
+
+Our (14 batch) Tabulation sheet:
+	https://goo.gl/kjh2Vq
+
+
+
+Kaldi related websites:
+http://jrmeyer.github.io/ (v.v. good)
+*** https://www.clsp.jhu.edu/wp-content/uploads/sites/75/2016/06/Building-Speech-Recognition-Systems-with-the-Kaldi-Toolkit.pdf (V.V.I. for visualizaiton)
+
+
+http://mi.eng.cam.ac.uk/~sjy/papers/gayo07.pdf (HMM-GMM process সুন্দরমত আছে )
+http://kaldi-asr.org/doc/kaldi_for_dummies.html (V.V.I. Kaldi run করার সুন্দরমত প্রছেস দেওয়া আছে ..)
+To CREATE PYTHON VIRTUAL ENVIRONMENT OF 2.7 VERSION(###  V.V.I ###):                http://docs.python-guide.org/en/latest/dev/virtualenvs/ 
+
+(( alias python='/usr/bin/python3.4' ))
+
+http://www.voxforge.org/home/docs/faq/faq/what-is-an-acoustic-model (V.V.I for VIVA)
+https://sites.google.com/site/dpovey/kaldi-lectures (V.V.V.V.V.V..V..V. I.I.I.I.I..I.I..I.I.)
+
+Deep Belief Neural Network(DBN):          (Date: 12.04.18)
+https://www.youtube.com/watch?v=E2Mt_7qked0
+https://www.youtube.com/watch?v=S4JfZxxxC5Y
+https://www.youtube.com/watch?v=zQOqiC8WJ0w
+https://www.youtube.com/watch?v=mJqafzS9mKg
+https://www.youtube.com/watch?v=pIaTgr5GEEE
+
+
+
+NEURAL NETWORK LINKS:
+
+Book: https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html (good)
+http://neuralnetworksanddeeplearning.com/index.html
+http://www.deeplearningbook.org/contents/convnets.html (CNN)
+http://www.deeplearningbook.org/ (deep learning)
+Game  => 
+		Playground.tensorflow.orgopen_in_new 
+https://hunkim.github.io/ml/ (chinese site)
+https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng(Lecture with handwriting)
+medium.com/@halimaakhtermitu/আর্টিফিশিয়াল-নিউরাল-নেটওয়ার্ক-ann-এর-সহজ-পরিচিতি-ও-এর-ক্লাসিক-এক্সাম্পল-ইমপ্লিমেন্টেশন-edfdb2ba4b72 
+
+
+
+
+Youtube links:
+
+https://www.youtube.com/watch?v=aircAruvnKk (good)
+
+
+
+PROBABILITY FOR ML:
+https://thedeepml.com/2017/10/09/how-much-mathematics-is-required-for-machine-learning/
+https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo
+
+
+
+ASR IMPORTANT LINKS:
+https://books.google.com.bd/books?hl=en&lr=&id=ea68ejhT0KsC&oi=fnd&pg=PR5&dq=automatic+speech+recognition+system&ots=v2i9_y36jX&sig=CKf7Mr72JDG2Ba6PfGABPSvHZv8&redir_esc=y#v=onepage&q=automatic%20speech%20recognition%20system&f=false (V.V.I. BOOK)
+https://research.googleblog.com/2017/12/improving-end-to-end-models-for-speech.html (end-end speech recognition)
+https://svds.com/tensorflow-rnn-tutorial/ (RNN v.v.i.)
+https://research.googleblog.com/2017/12/improving-end-to-end-models-for-speech.html (GOOGLE research blog)
+
+Shell Scripting:
+https://www.guru99.com/introduction-to-shell-scripting.html (good)
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners (V.V.V.V.I && JOSS)
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-6.html (good)
+
+Thesis Paper Links:
+https://arxiv.org/pdf/1611.07174.pdf  V.V.I.)
+http://b6b808de-a-62cb3a1a-s-sites.googlegroups.com/site/cweng6/files-1/rnn-robust-asr.pdf 
+https://www2.ee.washington.edu/student/jsalt2015/oslides/DeepLearning4ASRTutorial.pdf  (V.V.I.)
+https://arxiv.org/abs/1712.01769 (V.V.I.)
+
+WEB PROJECT(BITCOIN):
+https://www.coinigy.com/bitcoin-api/
+https://www.npmjs.com/package/cryptocompare (V.V.I. for WEB project)
+https://www.npmjs.com/package/react-easy-chart (for plotting graph)
+https://rma-consulting.github.io/react-easy-chart/ (graph plotting documentation)
+https://www.npmjs.com/package/react-plot (for plotting graph)  
+
+youtube link:
+	https://www.youtube.com/watch?v=Ly-9VTXJlnA
+
+https://hackernoon.com/how-to-combine-a-nodejs-back-end-with-a-reactjs-front-end-app-ea9b24715032 (Nodejs + ReactJS combined woriking process)
+https://codeburst.io/how-i-built-an-interactive-30-day-bitcoin-price-graph-with-react-and-an-api-6fe551c2ab1d  (V.V.I. for WEB project)
+https://scotch.io/tutorials/build-a-cryptocurrency-comparison-site-with-vuejs (Vue.js for WEB project)
+https://alligator.io/vuejs/vue-chart-js/ (VUEjs Chartjs)
+
+Fency UI Design:
+https://tympanus.net/codrops/category/tutorials/ (V.V.I.)
+
+
+
+Android:
+	Firebase setup: https://www.youtube.com/watch?v=7SJsnPYkYqo
+
+Compiler Assignment solution:
+http://dragon-book.jcf94.com/book/ch02/2.2/2.2.html
+https://github.com/fool2fish/dragon-book-exercise-answers
+
+	 	 	
+C++ STLs sample codes: 
+goo.gl/Geuans (V.V.I.)
+http://people.revoledu.com/kardi/tutorial/KNN/KNN_Numerical-example.html
+https://www.datascience.com/blog/k-means-clustering
+
+Docker:
+1.udemy:https://www.udemy.com/docker-for-absolute-beginners-learn-docker-from-scratch/?utm_source=adwords-learn&utm_medium=udemyads&utm_campaign=NEW-AW-PROS-TECH-US-DSA-1-EN-ENG_._ci__._sl_ENG_._vi_TECH_._sd_All_._la_EN_._&utm_content=deal4584&utm_term=_._ag_60674438811_._ad_267594190043_._de_c_._dm__._pl__._ti_aud-304639795583:dsa-304639795623_._li_1001444_._pd__._&gclid=CjwKCAjw2_LcBRBYEiwA_XVBU9gKwUWG2SlfLxR_237xHazzQWxHuQJpBJ47LSiMwSkzKN943mxuLBoCZ2gQAvD_BwE
+2.https://rominirani.com/docker-tutorial-series-a7e6ff90a023
+
+
+
