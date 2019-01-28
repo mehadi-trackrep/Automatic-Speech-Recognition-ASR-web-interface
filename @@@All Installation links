@@ -1,0 +1,104 @@
+
+%% Please make sure that
+ -   PATH includes /usr/local/cuda-10.0/bin
+ -   LD_LIBRARY_PATH includes /usr/local/cuda-10.0/lib64, or, add /usr/local/cuda-10.0/lib64 to /etc/ld.so.conf and run ldconfig as root
+
+
+
+Cuda 10 in 18.04:
+https://www.pugetsystems.com/labs/hpc/How-To-Install-CUDA-10-together-with-9-2-on-Ubuntu-18-04-with-support-for-NVIDIA-20XX-Turing-GPUs-1236/
+     2. Pytorch 1.0 in 18.04, python 3.6 for cuda 10:
+conda install pytorch torchvision cuda100 -c pytorch
+
+** NVIDIA driver install thakte hobe.. Check comand: (nvidia-smi) 
+Nvidia and cuda 10 install link: https://hackernoon.com/deep-learning-software-setup-cuda-10-ubuntu-18-04-15548cefa30
+
+3.
+**  torch na paile (AttributeError: type object 'numpy.ndarray' has no attribute '__array_function__'
+) hole:-
+I. pip3 uninstall numpy==1.15.0
+II. pip uninstall numpy==1.15.0
+
+
+
+
+python -c 'import tensorflow as tf; print(tf.__version__)'
+
+** kenLM and mosses install for language modeling:
+	
+1. https://github.com/kpu/kenlm
+2. http://www.statmt.org/moses/?n=Development.GetStarted
+
+
+
+Love is power
+Love is peace
+Love is happiness
+Love is life
+Love never dies
+
+
+
+** gcc error in pyaudio installation:
+Soln: https://stackoverflow.com/questions/20023131/cannot-install-pyaudio-gcc-error
+
+
+
+https://askubuntu.com/questions/1036108/install-gcc-4-9-at-ubuntu-18-04?rq=1
+https://unix.stackexchange.com/questions/410723/how-to-install-a-specific-version-of-gcc-in-kali-linux
+https://stackoverflow.com/questions/48398475/fail-to-install-gcc-4-9-in-ubuntu17-04 (	v.v.i)
+https://forums.linuxmint.com/viewtopic.php?t=208522
+
+
+
+For VPN VLC onile HD streaming :
+https://www.cnx-software.com/2018/04/15/how-to-install-and-use-acestream-easily-in-ubuntu-mint-linux/
+https://www.reddit.com/r/soccerstreams/
+
+
+https://www.tecmint.com/fix-unable-to-lock-the-administration-directory-var-lib-dpkg-lock/
+
+http://ubuntuhandbook.org/index.php/2017/05/install-brightness-controller-utility-in-ubuntu-16-04-higher/
+
+http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/
+
+=> pip list
+=> tensorflow.__version__ (to check version)
+=> 
+
+https://www.anaconda.com/download/#linux
+
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+https://askubuntu.com/questions/590027/how-to-set-python-3-as-default-interpreter-in-ubuntu-14-04 ( to change python interpreter name)
+
+sudo apt-get update
+sudo apt-get install curl (to install curl)
+
+
+Python version change for Virtual environment:
+
+https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux
+
+
+
+Anaconda:
+
+https://hostpresto.com/community/tutorials/how-to-install-anaconda-python-on-ubuntu-16-04/
+
+export PATH=~/anaconda3/bin:$PATH
+
+
+
+https://www.dropbox.com/install-linux
+
+
+Android:
+https://developer.android.com/studio/run/managing-avds
+https://www.hiroom2.com/2016/10/23/ubuntu-16-04-install-android-studio-2-2/
+AVD : https://www.youtube.com/watch?v=3UNlzsfTqi4
+
+
+NodeJs, NPM:
+https://www.hostingadvice.com/how-to/update-node-js-latest-version/
+
